@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #878787;
+}
+
+/* Header */
+.header {
+  height: 100vh;
+}
+
+.header a {
+  color: whitesmoke;
+}
+
+.navbar .navbar-brand:hover {
+  color: whitesmoke;
+}
+
+.navbar-nav .nav-link {
+  color: whitesmoke;
+  border-bottom: 2px solid transparent;
+  transition: 0.5s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+  transition: 0.5s;
+}
+
+.navbar-nav .nav-item {
+  padding-right: 1.6rem;
+}
+
+/* section home */
+
+.home img {
+  width: 650px;
+}
+
+/* section Projetos */
+
+#projetos {
+  background-color: #f6f6f6;
+}
+
+.projetos .cards {
+  display: flex;
+  justify-content: center;
+}
+
+.projetos .card button {
+  background-color: #202022;
+  border: none;
+}
+
+.projetos .card button:hover {
+  background-color: #878787;
+  transition: 500ms;
+}
+
+.projetos .card button:active {
+  transform: scale(0.97);
+  transition: 600ms;
+}
+
+.projetos .card {
+  width: 95%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 400ms;
+}
+
+.projetos .card:hover {
+  transform: scale(1.01);
+  transition: 300ms;
+  box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0, 85);
+}
